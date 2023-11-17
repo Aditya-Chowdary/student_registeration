@@ -1,0 +1,85 @@
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 86vh;
+  padding: 50px;
+  background-image: url("../../Assets/Images/new1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.heading-color {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.color-astric {
+  color: red;
+}
+.signup-form {
+  width: 400px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 20px 10px 40px 80px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  font-size: large;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 3px;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button:hover {
+  background-color: #51b300;
+}
+.generate-otp-button {
+  margin-bottom: 2vh;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(45, 151, 45);
+  border-radius: 5px;
+}
+.form-group-otp-fields {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 15px;
+}
+.validate-otp-button {
+  color: white;
+  background-color: rgb(45, 151, 45);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
